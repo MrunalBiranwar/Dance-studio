@@ -22,6 +22,25 @@ const Navbar = (props) => {
   const goToRegister = () => {
     navigate('/sign-up10'); // Adjust the route as needed
   };
+  const goToAbove = () => {
+    navigate('/about'); // Adjust the route as needed
+  };
+  const goToHome = () => {
+    navigate('/'); // Adjust the route as needed
+  };
+
+  const scrollToGallery = () => {
+    const gallerySection = document.getElementById('gallery-section');
+    if (gallerySection) {
+      gallerySection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const scrollToContact = () => {
+    const gallerySection = document.getElementById('contact-section');
+    if (gallerySection) {
+      gallerySection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <header className="navbar-container">
@@ -31,11 +50,11 @@ const Navbar = (props) => {
         {/* Desktop Menu */}
         <div className="navbar-desktop-menu">
           <nav className="navbar-links1">
-            <span className="thq-body-small thq-link">{props.link1}</span>
-            <span className="thq-body-small thq-link">{props.link2}</span>
+            <span className="thq-body-small thq-link" onClick={goToHome}>{props.link1}</span>
+            <span className="thq-body-small thq-link" onClick={goToAbove}>{props.link2}</span>
             <span className="thq-body-small thq-link">{props.link3}</span>
-            <span className="thq-body-small thq-link">{props.link4}</span>
-            <span className="thq-body-small thq-link">{props.link5}</span>
+            <span className="thq-body-small thq-link" onClick={scrollToGallery}>{props.link4}</span>
+            <span className="thq-body-small thq-link" onClick={scrollToContact}>{props.link5}</span>
           </nav>
           <div className="navbar-buttons1">
             <button onClick={goToLogin} className="navbar-action11 thq-button-animated thq-button-filled">
@@ -59,10 +78,11 @@ const Navbar = (props) => {
           <div className="navbar-mobile-menu">
             <div className="navbar-nav">
               <div className="navbar-top">
-                <img alt={props.logoAlt} src={props.logoSrc} className="navbar-logo" />
+                <img alt={props.logoAlt} src="/Logo.png" className="navbar-logo" />
                 <div className="navbar-close-menu" onClick={toggleMobileMenu}>
                   <svg viewBox="0 0 1024 1024" className="navbar-icon3">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
                   </svg>
                 </div>
               </div>
@@ -70,8 +90,8 @@ const Navbar = (props) => {
                 <span className="thq-body-small thq-link">{props.link1}</span>
                 <span className="thq-body-small thq-link">{props.link2}</span>
                 <span className="thq-body-small thq-link">{props.link3}</span>
-                <span className="thq-body-small thq-link">{props.link4}</span>
-                <span className="thq-body-small thq-link">{props.link5}</span>
+                <span className="thq-body-small thq-link" onClick={scrollToGallery}>{props.link4}</span>
+                <span className="thq-body-small thq-link" onClick={scrollToContact}>{props.link5}</span>
               </nav>
             </div>
             <div className="navbar-buttons2">

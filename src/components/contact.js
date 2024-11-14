@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Contact = (props) => {
   return (
-    <div className="contact-contact20 thq-section-padding">
+    <div id="contact-section" className="contact-contact20 thq-section-padding">
       <div className="contact-max-width thq-section-max-width">
         <div className="contact-section-title">
           <span className="thq-body-small">{props.content2}</span>

@@ -1,22 +1,22 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from "react";
 
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
 
-import Navbar from '../components/navbar'
-import Toast1 from '../components/toast1'
-import Hero from '../components/hero'
-import Features1 from '../components/features1'
-import CTA from '../components/cta'
-import Features2 from '../components/features2'
-import Pricing from '../components/pricing'
-import Steps from '../components/steps'
-import Gallery8 from '../components/gallery8'
-import Testimonial from '../components/testimonial'
-import Contact from '../components/contact'
-import Footer from '../components/footer'
-import SignIn3 from '../components/sign-in3'
-import SignUp10 from '../components/sign-up10'
-import './home.css'
+import Navbar from "../components/Navbar";
+import Toast1 from "../components/toast1";
+import Hero from "../components/hero";
+import Features1 from "../components/features1";
+import CTA from "../components/cta";
+import Features2 from "../components/features2";
+import Pricing from "../components/pricing";
+import Steps from "../components/steps";
+import Gallery8 from "../components/gallery8";
+import Testimonial from "../components/testimonial";
+import Contact from "../components/contact";
+import Footer from "../components/footer";
+import SignIn3 from "../components/sign-in3";
+import SignUp10 from "../components/sign-up10";
+import "./home.css";
 
 const Home = (props) => {
   return (
@@ -113,7 +113,7 @@ const Home = (props) => {
         }
       ></SignUp10> */}
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
