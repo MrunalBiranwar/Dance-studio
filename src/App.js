@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from 'react-router-dom';
 
-function App() {
+import './App.css';
+import NotFound1 from './views/not-found.js';
+import Home from './views/home';
+import SignIn3 from './components/sign-in3.js';
+import SignUp10 from './components/sign-up10.js';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sign-in3" element={<SignIn3 />} />
+        <Route path="/sign-up10" element={<SignUp10 />} />
+        <Route path="/not-found" element={<NotFound1 />} />
+        {/* Catch-all route for undefined paths */}
+        <Route path="*" element={<NotFound1 />} />
+        {/* Redirect to a fallback route */}
+        <Route path="**" element={<Navigate to="/not-found" />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,37 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-text10 {
+  display: inline-block;
+}
+.home-text13 {
+  display: inline-block;
+}
+.home-text14 {
+  display: inline-block;
+}
+.home-text15 {
+  display: inline-block;
+}
+.home-text16 {
+  display: inline-block;
+}
+.home-text17 {
+  display: inline-block;
+}
+.home-text18 {
+  display: inline-block;
+}
+.home-text19 {
+  display: inline-block;
+}
+.home-text20 {
+  display: inline-block;
+}
+.home-text21 {
+  display: inline-block;
+}
