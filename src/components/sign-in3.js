@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 import "./sign-in3.css";
 import Navbar from "./Navbar";
+import Footer from "./footer";
 
 const SignIn3 = (props) => {
   return (
@@ -119,6 +120,7 @@ const SignIn3 = (props) => {
         />
         <div className="sign-in3-container5"></div>
       </div>
+      <Footer />
     </div>
   );
 };

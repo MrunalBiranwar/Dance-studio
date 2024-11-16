@@ -573,3 +573,42 @@
     gap: var(--dl-space-space-oneandhalfunits);
   }
 }
+.pricing-column1,
+.pricing-column2,
+.pricing-column3,
+.pricing-column4,
+.pricing-column5,
+.pricing-column6 {
+  background-color: rgba(255, 255, 255, 0.1); /* White with transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur intensity */
+  border-radius: 15px; /* Rounded corners for smooth appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  padding: 20px;
+  color: #ffffff; /* Text color contrast on blurred background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth 3D tilt and shadow */
+  transform-style: preserve-3d; /* Enable 3D transforms */
+  position: relative;
+}
+
+/* Hover effect for subtle tilt when hovering over the sides and corners */
+.pricing-column1:hover,
+.pricing-column2:hover,
+.pricing-column3:hover,
+.pricing-column4:hover,
+.pricing-column5:hover,
+.pricing-column6:hover {
+  transform: rotateY(10deg) rotateX(10deg); /* Slight tilt */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect for depth */
+}
+
+/* Optional: Increase tilt when hovering on the top-left corner */
+.pricing-column1:hover, .pricing-column2:hover, .pricing-column3:hover, 
+.pricing-column4:hover, .pricing-column5:hover, .pricing-column6:hover {
+  /* Apply a subtle tilt when hovering over the top or bottom corners */
+  transform: rotateY(15deg) rotateX(15deg);
+}
+.pricing-column1:hover, .pricing-column2:hover, .pricing-column3:hover, 
+.pricing-column4:hover, .pricing-column5:hover, .pricing-column6:hover {
+  /* Apply a subtle tilt when hovering over the top or bottom corners */
+  transform: rotateY(10deg) rotateX(10deg);
+}

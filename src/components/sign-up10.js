@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Navbar from "./Navbar";
 
 import "./sign-up10.css";
+import Footer from "./footer";
 
 const SignUp10 = (props) => {
   return (
@@ -126,6 +127,7 @@ const SignUp10 = (props) => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

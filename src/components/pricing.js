@@ -54,7 +54,7 @@ const Pricing = (props) => {
         </div>
         {isMonthly && (
           <div className="pricing-container1">
-            <div className="pricing-column1 thq-card">
+            <div className="pricing-column1 pricing-card thq-card">
               <div className="pricing-price10">
                 <div className="pricing-price11">
                   <p className="pricing-text17 thq-body-large">{props.plan1}</p>
@@ -94,7 +94,7 @@ const Pricing = (props) => {
                 <span className="thq-body-small">{props.plan1Action}</span>
               </button>
             </div>
-            <div className="pricing-column2 thq-card">
+            <div className="pricing-column2 pricing-card thq-card">
               <div className="pricing-price12">
                 <div className="pricing-price13">
                   <p className="pricing-text24 thq-body-large">{props.plan2}</p>
@@ -142,7 +142,7 @@ const Pricing = (props) => {
                 <span className="thq-body-small">{props.plan2Action}</span>
               </button>
             </div>
-            <div className="pricing-column3 thq-card">
+            <div className="pricing-column3 pricing-card thq-card">
               <div className="pricing-price14">
                 <div className="pricing-price15">
                   <p className="pricing-text32 thq-body-large">{props.plan3}</p>
@@ -202,7 +202,7 @@ const Pricing = (props) => {
         )}
         {!isMonthly && (
           <div className="pricing-container2">
-            <div className="pricing-column4 thq-card">
+            <div className="pricing-column4 pricing-card thq-card">
               <div className="pricing-price16">
                 <div className="pricing-price17">
                   <span className="pricing-text41 thq-body-large">
@@ -244,7 +244,7 @@ const Pricing = (props) => {
                 <span className="thq-body-small">{props.plan1Action1}</span>
               </button>
             </div>
-            <div className="pricing-column5 thq-card">
+            <div className="pricing-column5 pricing-card thq-card">
               <div className="pricing-price18">
                 <div className="pricing-price19">
                   <span className="pricing-text48 thq-body-large">
@@ -294,7 +294,7 @@ const Pricing = (props) => {
                 <span className="thq-body-small">{props.plan2Action1}</span>
               </button>
             </div>
-            <div className="pricing-column6 thq-card">
+            <div className="pricing-column6 pricing-card thq-card">
               <div className="pricing-price20">
                 <div className="pricing-price21">
                   <span className="pricing-text56 thq-body-large">

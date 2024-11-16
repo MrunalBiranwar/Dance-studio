@@ -39,18 +39,18 @@ const About = () => {
           <div className="about-content animate-right" ref={addToRefs}>
             <h2 className="about-title">About Us</h2>
             <p className="about-description">
-            The Danceworx comprises of The Danceworx Academy and The Danceworx
-              Student Repertory Company. <br /> The Danceworx Academy was set up by
-              Indian-Australian choreographer Ashley Lobo in November of 1998 to
-              teach dance along the lines of dance institutes overseas.
+              The Danceworx comprises of The Danceworx Academy and The Danceworx
+              Student Repertory Company. <br /> The Danceworx Academy was set up
+              by Indian-Australian choreographer Ashley Lobo in November of 1998
+              to teach dance along the lines of dance institutes overseas.
               Currently its curriculum consists of styles such as Jazz,
               Classical Ballet, Contemporary, Urban and Funk. Today, The
               Danceworx Academy has a huge student database spanning New Delhi,
-              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was set up
-              with senior students hand-picked by the Artistic Director Ashley
-              Lobo. These budding artists are given opportunities to perform,
-              teach and choreograph. They have a special curriculum set by the
-              Artistic Director.
+              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was
+              set up with senior students hand-picked by the Artistic Director
+              Ashley Lobo. These budding artists are given opportunities to
+              perform, teach and choreograph. They have a special curriculum set
+              by the Artistic Director.
             </p>
           </div>
           <img
@@ -66,18 +66,18 @@ const About = () => {
           <div className="about-content animate-left" ref={addToRefs}>
             <h2 className="about-title">The Philosophy</h2>
             <p className="about-description">
-            The Danceworx comprises of The Danceworx Academy and The Danceworx
-              Student Repertory Company. <br /> The Danceworx Academy was set up by
-              Indian-Australian choreographer Ashley Lobo in November of 1998 to
-              teach dance along the lines of dance institutes overseas.
+              The Danceworx comprises of The Danceworx Academy and The Danceworx
+              Student Repertory Company. <br /> The Danceworx Academy was set up
+              by Indian-Australian choreographer Ashley Lobo in November of 1998
+              to teach dance along the lines of dance institutes overseas.
               Currently its curriculum consists of styles such as Jazz,
               Classical Ballet, Contemporary, Urban and Funk. Today, The
               Danceworx Academy has a huge student database spanning New Delhi,
-              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was set up
-              with senior students hand-picked by the Artistic Director Ashley
-              Lobo. These budding artists are given opportunities to perform,
-              teach and choreograph. They have a special curriculum set by the
-              Artistic Director.
+              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was
+              set up with senior students hand-picked by the Artistic Director
+              Ashley Lobo. These budding artists are given opportunities to
+              perform, teach and choreograph. They have a special curriculum set
+              by the Artistic Director.
             </p>
           </div>
           <img
@@ -90,21 +90,24 @@ const About = () => {
 
         {/* Vision Section */}
         <div className="about-item">
+          <div class="shape shape1"></div>
+          <div class="shape shape2"></div>
+          <div class="shape shape3"></div>
           <div className="about-content animate-right" ref={addToRefs}>
             <h2 className="about-title">The Vision</h2>
             <p className="about-description">
-            The Danceworx comprises of The Danceworx Academy and The Danceworx
-              Student Repertory Company. <br /> The Danceworx Academy was set up by
-              Indian-Australian choreographer Ashley Lobo in November of 1998 to
-              teach dance along the lines of dance institutes overseas.
+              The Danceworx comprises of The Danceworx Academy and The Danceworx
+              Student Repertory Company. <br /> The Danceworx Academy was set up
+              by Indian-Australian choreographer Ashley Lobo in November of 1998
+              to teach dance along the lines of dance institutes overseas.
               Currently its curriculum consists of styles such as Jazz,
               Classical Ballet, Contemporary, Urban and Funk. Today, The
               Danceworx Academy has a huge student database spanning New Delhi,
-              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was set up
-              with senior students hand-picked by the Artistic Director Ashley
-              Lobo. These budding artists are given opportunities to perform,
-              teach and choreograph. They have a special curriculum set by the
-              Artistic Director.
+              NCR and Mumbai. <br /> The Danceworx Student Repertory Company was
+              set up with senior students hand-picked by the Artistic Director
+              Ashley Lobo. These budding artists are given opportunities to
+              perform, teach and choreograph. They have a special curriculum set
+              by the Artistic Director.
             </p>
           </div>
           <img
